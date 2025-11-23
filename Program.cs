@@ -33,3 +33,42 @@ Console.WriteLine(greetings);
 Console.WriteLine(body);
 Console.WriteLine(closingMessage);
 
+
+// Implementation of Methods for Email Components
+void PrintFrom(string sender)
+{
+    Console.WriteLine($"From: {sender}");
+} 
+void PrintTo(string recipient)
+{
+    Console.WriteLine($"To: {recipient}");
+}
+void PrintDate(string date)
+{
+    Console.WriteLine($"Date: {date}");
+}
+void PrintSubject(string subject)
+{
+    Console.WriteLine($"Subject: {subject}");
+}
+void PrintGreetings(string greetings)
+{
+    Console.WriteLine(greetings);
+}       
+void PrintBody(string body)
+{
+    Console.WriteLine(body);
+}
+void PrintClosingMessage(string closingMessage)
+{
+    Console.WriteLine(closingMessage);
+}
+PrintFrom(senderEmail);
+PrintTo(recipientEmail);
+PrintDate(startDate.ToString());
+PrintSubject(subject);
+PrintGreetings(greetings);
+PrintBody(body);
+PrintClosingMessage(closingMessage);
+
+// End of Program
